@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizzeria Fiamma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <a name="top"></a>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <span class="logo-emoji">🍕</span>
+            <div class="logo-text">
+                <h1>Pizzeria Fiamma</h1>
+                <p>Вкус, рождённый в пламени</p>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <a href="#top" class="nav-link active-link">Главное</a>
+            <a href="#menu" class="nav-link">Меню</a>
+            <a href="#order" class="nav-link">Доставка</a>
+            <a href="#about" class="nav-link">О нас</a>
+            <a href="#profile" class="nav-btn">Личный кабинет</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="main" class="hero-section">
+            <h2>Добро пожаловать в Pizzeria Fiamma!</h2>
+            <p>Итальянская пицца, приготовленная с душой.</p>
+        </section>
+
+        <section class="features-grid">
+            <div class="feature-card">
+                <h2 class="section-title">Популярное</h2>
+                <hr class="divider">
+                <h3 class="pizza-title">Неаполитанская</h3>
+                <p class="pizza-desc">Кулинарный шедевр с душой Италии, выпекаемый в дровяной печи за 90 секунд.</p>
+                <img src="https://o-grill.com.ru/wp-content/uploads/cache/2017/02/cl-neo-pizza_dop/1271728166.jpg" class="pizza-img" alt="Неаполитанская пицца">
+            </div>
+
+            <div class="feature-card">
+                <h2 class="section-title">Новинки</h2>
+                <hr class="divider">
+                <h3 class="pizza-title">Скьяччата</h3>
+                <p class="pizza-desc">Традиционная тосканская плоская пицца. Идеальна как основа для сытных сэндвичей.</p>
+                <img src="https://poddipizza.ru/thumb/2/ULZjNmV-K7wz-BFwGzg9bQ/630r630/d/2021-04-14_16-11-55_dyakov.jpg" class="pizza-img" alt="Пицца Скьяччата">
+            </div>
+
+            <div class="feature-card">
+                <h2 class="section-title">Классика</h2>
+                <hr class="divider">
+                <h3 class="pizza-title">Маргарита</h3>
+                <p class="pizza-desc">Воплощение простоты: тонкое тесто, томатный соус, моцарелла и свежий базилик.</p>
+                <img src="https://avatars.mds.yandex.net/get-vertis-journal/4466156/12801442-7359-4a67-91e1-b231c378dc5c.jpeg/1600x1600" class="pizza-img" alt="Пицца Маргарита">
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <h2 class="menu-title">Наше полное меню</h2>
+            
+            <table class="menu-table">
+                <thead>
+                    <tr>
+                        <th width="25%">Название</th>
+                        <th width="55%">Описание</th>
+                        <th width="20%" style="text-align: center;">Цена</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Маргарита</b></td>
+                        <td>Томатный соус, моцарелла, базилик</td>
+                        <td class="price">450 ₽</td>
+                    </tr>
+                    <tr>
+                        <td><b>Пепперони</b></td>
+                        <td>Томатный соус, моцарелла, острая колбаса</td>
+                        <td class="price">550 ₽</td>
+                    </tr>
+                    <tr>
+                        <td><b>Неаполитанская</b></td>
+                        <td>Томаты, анчоусы, каперсы, орегано</td>
+                        <td class="price">700 ₽</td>
+                    </tr>
+                    <tr>
+                        <td><b>Скьяччата</b></td>
+                        <td>Плоская пицца с прошутто и страчателлой</td>
+                        <td class="price">650 ₽</td>
+                    </tr>
+                    <tr>
+                        <td><b>Салат Цезарь</b></td>
+                        <td>Романо, курица, пармезан, сухарики, соус</td>
+                        <td class="price">390 ₽</td>
+                    </tr>
+                    <tr>
+                        <td><b>Салат Капрезе</b></td>
+                        <td>Томаты, моцарелла, оливковое масло, базилик</td>
+                        <td class="price">350 ₽</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Pizzeria Fiamma. Все права защищены.</p>
+        <p>г. Барнаул, ул. Итальянская, д. 1 &nbsp;|&nbsp; Тел: +7 (999) 123-45-67</p>
+    </footer>
+
+    <div id="profile" class="modal-window">
+        <a href="#top" class="close-btn">×</a>
+        <h2>Личный кабинет</h2>
+        <div class="profile-info">
+            <p><b>Клиент:</b> Иван Иванов</p>
+            <p><b>Телефон:</b> +7 (999) 123-45-68</p>
+            <p><b>Бонусные баллы:</b> 150</p>
+            <hr>
+            <h3>История заказов</h3>
+            <ul>
+                <li>17.11.2026: Пицца Маргарита, Салат Цезарь — 840 ₽</li>
+                <li>10.10.2026: Пицца Пепперони — 550 ₽</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="order" class="modal-window">
+        <a href="#top" class="close-btn">×</a>
+        <h2>Оформление заказа</h2>
+        <form class="order-form">
+            <label>Ваше имя:</label>
+            <input type="text" placeholder="Иван">
+            
+            <label>Телефон:</label>
+            <input type="tel" placeholder="+7 (___) ___-__-__">
+            
+            <label>Адрес доставки:</label>
+            <input type="text" placeholder="ул. Ленина, д. 5, кв. 10">
+            
+            <div class="order-items">
+                <p><b>Выберите блюда:</b></p>
+                
+                <div class="item-row">
+                    <select>
+                        <option>Маргарита — 450 ₽</option>
+                        <option>Пепперони — 550 ₽</option>
+                        <option>Неаполитанская — 700 ₽</option>
+                        <option>Скьяччата — 650 ₽</option>
+			<option>Салат Цезарь — 390 ₽</option>
+			<option>Салат Капрезе — 350 ₽</option>
+                    </select>
+                </div>
+
+                <input type="checkbox" id="add-item-2" class="add-item-checkbox">
+                <label for="add-item-2" class="add-item-label">+ Добавить еще блюдо</label>
+                
+                <div class="item-row extra-item">
+                    <select>
+                        <option>Маргарита — 450 ₽</option>
+                        <option>Пепперони — 550 ₽</option>
+                        <option>Неаполитанская — 700 ₽</option>
+                        <option>Скьяччата — 650 ₽</option>
+			<option>Салат Цезарь — 390 ₽</option>
+			<option>Салат Капрезе — 350 ₽</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="button" class="submit-btn">Отправить заказ</button>
+        </form>
+    </div>
+
+    <div id="about" class="modal-window">
+        <a href="#top" class="close-btn">×</a>
+        <h2>О нас</h2>
+        <p class="about-text">
+            <b>Pizzeria Fiamma</b> — это итальянская пиццерия, которая не оставит никого равнодушным. 
+            Наши повара проходили обучение в Неаполе, чтобы передать вам тот самый 
+            вкус настоящей итальянской пиццы.
+        </p>
+        <p class="about-text">
+            Мы используем только свежие продукты, дровяную печь и готовим каждую пиццу с любовью. 
+            Ждем вас в гости!
+        </p>
+    </div>
+
+</body>
+</html>
